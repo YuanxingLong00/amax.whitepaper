@@ -30,15 +30,15 @@
 ## 1. Introduction
 To address growing user application needs, blockchain technology has evolved from distributed ledger, to smart contract technology that supports all sorts of application logic, through to providing layer-0 and layer-1 SDK technology that facilitates rapid building of new blockchains, and building layer-2 to solve problems that couldn't be solved with layer-1 technology, as well as bi-directional cross-chain technology.
 
-However, other than promoting security, reliability and decentralization, there hasn't to-date been a single blockchain technology that can sufficiently meet the following requirements:
-- massively parallel processing;
-- modularized and extensible; and
+However, other than promoting security, reliability and decentralization, to date there hasn't been a single blockchain technology that can sufficiently meet the following requirements:
+- massive parallel processing;
+- modularizable and extensible; and
 - customizable and configurable
   
-Armonia's founding team believes it takes a multichain blockchain platform technology to achieve the above objectives, which can then service every individual and business user globally. It is also Armonia's founding team's belief that the to-be-built metaverse will be a truly decentralized, open and multi-chain universe which harbors users, assets, transactions and smart-contract based, mission-critical DApps.
+Armonia's founding team believes it takes a multichain platform technology to achieve the above objectives, which can then service every individual and business user globally. Armonia's founding team believes that the to-be-built metaverse will be a truly decentralized, open and multichain universe which harbors users, assets, transactions and smart-contract based, mission-critical DAPPs.
 
 ## 2. Objectives & Principles
-Armonia is a mother-and-child multichain blockchain platform, wherein Armonia Meta Chain (`AMC`) is the mother chain to all other sovereign Armonia Child Chains (`ACC`). AMC is designed to be highly secure and highly performant chain with very low or even zero transaction fees. It also supports inter-blockchain bridging and mirroring of assets capable of supporting numerous DAPPs to be built on top of the platform. Under a multichain architecture, Armonia is poised to support at least one billion users worldwide.
+Armonia is a mother-and-child multichain platform, wherein Armonia Meta Chain (`AMC`) is the mother chain to all other sovereign Armonia Child Chains (`ACC`). AMC is designed to be a highly secure and highly performant chain with very low or even zero transaction fees. It also supports inter-blockchain bridging and mirroring of assets capable of supporting numerous DAPPs to be built on top of the platform. Under the multichain architecture, Armonia is poised to support at least one billion users worldwide.
 
 **Core Objectives**
 - To build a unified account and transaction addressing/routing system for the entire Armonia multichain universe;
@@ -48,11 +48,11 @@ Armonia is a mother-and-child multichain blockchain platform, wherein Armonia Me
 - After registering and staking escrow via the `AMC` chain, all distributed Internet resources (including distributed file storage, computing and networking, etc.) can be easily accessed and accurately metered. There will be various onchain charging models and open markets for all `Web3.0` resources available throughout the Armonia network. The Armonia multichain platform can therefore become the cornerstone of the metaverse.
 
 **Design Principles**
-- Secure and reliable: to ensure `AMC` has a characteristic of being highly decentralized. Any malicious activities can be detected, corrected and penalized, if not avoided on a timely basis. Therefore, all assets onchain can be truly safe guarded；
+- Secure and reliable: to ensure `AMC` has a characteristic of being highly decentralized. Any malicious activities can be detected, corrected and penalized, if not avoided on a timely basis. Therefore, all assets onchain can be truly safe guarded;
 - Extensible: through modularized "lego-style" building blocks, Armonia's blockchain system can be combinable, replaceable and extendable;
-- High performance: `AMC` can achieve 5000+ TPS and generate blocks at 1 second intervals. In addition, through utilizing multiple `ACC` chains, transactions can be grouped or segregated into different `ACC` chains to achieve sharding effects and acquire massive parallel processing speeds. As the total number of `ACC` chains can be infinite, the overall performance would thus also be infinite.
-- Personalized: the characteristics of the `ACC` chains can be tailored, whereby Armonia's multichain platform can support infinite kinds of demands from the over-laying ecosystem; and
-- Simply: Armonia's multichain platform avoids any form of over-design or over-implementation to ensure the entire network maintains its overall security, reliability and agility.
+- High performance: `AMC` can achieve 5000+ TPS and generate blocks at 1 second intervals. In addition, through utilizing multiple `ACC` chains, transactions can be grouped or segregated into different `ACC` chains to achieve sharding effects and acquire massive parallel processing speeds. As the total number of `ACC` chains can be infinite, the overall performance would thus also be infinite;
+- Personalizable: the characteristics of the `ACC` chains can be tailored, whereby Armonia's multichain platform can support infinite kinds of demands from the over-laying ecosystem; and
+- Simple: Armonia's multichain platform avoids any form of over-design or over-implementation to ensure the entire network maintains its overall security, reliability and agility.
 
 ## 3. Overall Architecture
 As a multichain platform, Armonia has adopted a unique mother-and-child-chain model, as compared to the star-like models which have been adopted in many other multichain technologies like Cosmos or Polkadot:
@@ -67,11 +67,11 @@ As a multichain platform, Armonia has adopted a unique mother-and-child-chain mo
   
 ### i. Multichain Model
 
-With Armonia's layer-0 and layer-1 template software and SDK modules, users can rapidly build many versatile child chains with their uniqueness in consensus algorithm, block interval, virtual machine and finality choices, etc., to meet the various needs of the ecosystem.
+With Armonia's layer-0 and layer-1 template software and SDK modules, users can rapidly build versatile child chains with their uniqueness in consensus algorithm, block interval, virtual machine and finality choices, etc., to meet the various needs of the ecosystem.
 
-`ACC` use have their own native tokens or directly utilize `$AMAX` which can be bridged from the `AMC` chain. It is highly encouraged to implement `ACC` that runs on a gas model and utilizes `$AMAX` for gas or transaction fee payment. By increasing the demand of $AMAX, `ACC` will help to add value to `AMC`, and even the entire ecosystem.
+`ACC` chains have their own native tokens or directly utilize `$AMAX` which can be bridged from the `AMC` chain. It is highly encouraged to implement `ACC` that runs on a gas model and utilizes `$AMAX` for gas or transaction fee payments. By increasing the demand of `$AMAX`, `ACC` will help to add value to `AMC`, and even the entire ecosystem.
 
-Basically, every single blockchain can be highly abstracted or characterized as the capital letter "T" whereby the horizontal line stands for all transaction and block data broadcasted throughout the network and the vertical line represents the state database (for example, account balance state) that is only constructed after execution of transactions produced from the horizontal line. Furthermore, a dotted line circle is used to represent an open and public blockchain network while a solid line circle represents a private blockchain. `AMC` can serve as trust anchor to all other `ACC` chains which collectively form the following multichain universe:
+Basically, every single blockchain can be highly abstracted or characterized as the capital letter "T" whereby the horizontal line stands for all transactions and block data broadcasted throughout the network, and the vertical line represents the state database (for example, account balance state) that is only constructed after execution of transactions produced from the horizontal line. Furthermore, a dotted line circle is used to represent an open and public blockchain network while a solid line circle represents a private blockchain. `AMC` can serve as trust anchor to all other `ACC` chains which collectively form the following multichain universe:
 
 <img src="./assets/Armonia-Multichain-Forest_en.png" title="Armonia Multichain Universe" width=800 />
 
@@ -247,7 +247,7 @@ The total supply of `$AMAX` is 1 billion and there won't be any systematic infla
 
 ### i. Token Distribution
 
-The overall allocation of `$AMAX` tokens are as follows:
+The overall allocation of `$AMAX` tokens is as follows:
 
 <img src="./assets/amax-total-allocation_en.png" width=800 />
 
